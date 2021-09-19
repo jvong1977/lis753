@@ -1,0 +1,22 @@
+h1 {
+  color: #32a852;
+  font-family: sans-serif;
+  text-align: center
+}
+p {
+  background: #f3fc38;
+}
+figure {
+  border: 1px solid black;
+  padding: 12px;
+  padding-bottom: 24px;
+}
+figure img {
+  width: 100%
+}
+p img {
+  float: right;
+  max-width: 60%
+    margin-left: 20px;
+  margin-bottom: 32px;
+}
