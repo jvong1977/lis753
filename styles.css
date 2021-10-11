@@ -1,12 +1,37 @@
+body {
+  font-family: 'PT Serif', serif;
+}
+
 h1 {
   color: #32a852;
   font-family: sans-serif;
   text-align: center
 }
-p {
-  background: #f3fc38;
+
+.container {
+  width: 96%;
+  max-width: 1020px;
+  margin: 0 auto;
 }
+
+h1#site-title {
+  font-size: 72px;
+  letter-spacing: -3px;
+  margin-top: 0;
+  margin-bottom: .125em;
+  text-align: center;
+}
+h1#article-title {
+  font-size: 48px;
+}
+
+p {
+  line-height: 1.25;
+  margin-bottom: 1.25em
+}
+
 figure {
+  margin: 0
   border: 1px solid black;
   padding: 12px;
   padding-bottom: 24px;
@@ -14,6 +39,28 @@ figure {
 figure img {
   width: 100%
 }
+
+figure.main-image {
+background: PaleVioletRed;
+border-color: MediumVioletRed
+color: #ffffff
+}
+
+figure.section-image {
+  margin-bottom: 32px;
+  max-width: 320px;
+}
+
+figure.section-image.odd {
+  float: right;
+  margin-right: 20px;
+}
+
+figure.section-image.even {
+  float: left;
+  margin-right: 20px;
+}
+
 p img {
   float: right;
   max-width: 60%
@@ -26,8 +73,7 @@ nav ul {
   gap: 30px;
   list-style: none;
   padding-left: 0;
-  border-top: 1px solid MediumVioletRed;
-  border-bottom: 1px solid MediumVioletRed;
+
 }
 nav ul li a {
   color: MediumVioletRed;
@@ -37,13 +83,37 @@ nav ul li a {
   font-size: 14px
   font-weight: bold;
   letter-spacing: 1px;
-  border-bottom: 1px solid MediumVioletRed;
   display: block;
 }
-nav ul li a: hover {
-  border-bottom: 1px solid MediumVioletRed;
+header nav ul li a: hover {
+  border-bottom: 3px solid MediumVioletRed;
   padding-bottom: 9px
 }
+
+header nav ul{
+  border-top: 1px solid MediumVioletRed;
+  border-bottom: 1px solid MediumVioletRed;
+  }
+
+footer nav {
+}
+
+footer nav ul li a {
+  color: #ffffff
+}
+
+footer nav ul li a: hover {
+  text-decoration: underline;
+}
+
+footer#page-footer {
+  text-align: center;
+  padding: 32px 0;
+  margin-top: 64px;
+  background-color: MediumVioletRed;
+  color: #ffffff;
+  }
+
 nav ul li: last-child a {
   border-bottom: none;
 }
