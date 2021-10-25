@@ -1,0 +1,117 @@
+body {
+  font-family: 'PT Serif', serif;
+}
+h1 {
+  color: #32a852;
+  font-family: sans-serif;
+  text-align: center
+}
+
+container {
+  width: 80%;
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 98%;
+  text-align: center;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px ridge black;
+  padding: 5px
+}
+
+h1#site-title {
+  font-size: 72px;
+  letter-spacing: -3px;
+  margin-top: 0;
+  margin-bottom: .125em;
+  text-align: center;
+}
+h1#article-title {
+  font-size: 48px;
+}
+
+p {
+  line-height: 1.25;
+  margin-bottom: 1.25em;
+}
+
+body {
+  background-color: LightYellow;
+  padding: 2px
+  border: 5px ridge LightGreen;
+}
+
+  figure {
+    margin: 0
+    border: 1px solid black;
+    padding: 12px;
+    padding-bottom: 24px;
+  }
+  figure img {
+    width: 22%
+  }
+
+  figure.section-image.odd {
+    float: right;
+    margin-right: 20px;
+  }
+
+  figure.section-image.even {
+    float: left;
+    margin-right: 20px;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    padding-left: 0;
+
+  }
+  nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 12px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    display: block;
+  }
+  header nav ul li a: hover {
+    border-bottom: 3px solid LightGreen;
+    padding-bottom: 9px
+  }
+
+  header nav ul{
+    border-top: 1px solid LightGreen;
+    border-bottom: 1px solid LightGreen;
+    }
+
+  footer nav {
+  }
+
+  footer nav ul li a {
+    color: #black
+  }
+
+  footer nav ul li a: hover {
+    text-decoration: underline;
+  }
+
+  footer#page-footer {
+    text-align: center;
+    padding: 32px 0;
+    margin-top: 64px;
+    background-color: LightGreen;
+    color: #black;
+    }
+
+  nav ul li: last-child a {
+    border-bottom: none;
+  }
