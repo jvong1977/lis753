@@ -49,14 +49,19 @@ img{
   height: auto;
 }
 
+main-image {
+  max-width: 430px;
+  max-height: 660px;
+}
+
 figure {
   margin: 0;
-  border: 1px;
+  border: 1px solid black;
   padding: 12px;
   padding-bottom: 24px;
 }
 figure img {
-  max-width: 90%;
+  max-width: 100%;
   height: auto;
   margin-bottom: 12px;
 }

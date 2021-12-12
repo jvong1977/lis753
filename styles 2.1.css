@@ -62,9 +62,7 @@ figure img {
 }
 
 figure.main-image {
-background: DarkOrange;
-border-color: DarkOrange;
-color: #ffffff;
+color: #black;
 margin-bottom: 32px;
 }
 
